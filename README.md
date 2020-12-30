@@ -2,6 +2,7 @@
 Validates the format of user's phone number input to match that of a valid US phone number, including the area code and/or country code if provided. Returns "true" for valid US phone number format, and "false" for an invalid format.
 
 **Only validates the FORMAT, the relevant area codes are not tested for.**
+
 Some examples of valid US phone number formats that are tested includes:
   - xxx-xxx-xxxx
   - xxx-xxx xxxx
