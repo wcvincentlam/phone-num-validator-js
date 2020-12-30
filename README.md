@@ -4,29 +4,29 @@ Validates the format of user's phone number input to match that of a valid US ph
 **Only validates the FORMAT, the relevant area codes are not tested for.**
 
 Some examples of valid US phone number formats that are tested includes:
-  - xxx-xxx-xxxx
-  - xxx-xxx xxxx
-  - xxx xxx-xxxx
-  - xxx xxx xxxx
-  - xxxxxxxxxx
-  - (xxx)xxx-xxxx
-  - (xxx)xxx xxxx
-  - (xxx)xxxxxxx
-  - (xxx) xxx-xxxx
-  - (xxx) xxx xxxx
-  - (xxx)-xxx xxxx
-  - (xxx)-xxx-xxxx
-  - 1 xxx xxx xxxx
-  - 1(xxx) xxx xxxx
-  - 1 (xxx) xxx xxxx
-  - 1-xxx-xxx-xxxx
-  - 1-xxx xxx-xxxx
+  - 123-456-7890
+  - 123-456 7890
+  - 123 456-7890
+  - 123 456 7890
+  - 1234567890
+  - (123)456-7890
+  - (123)456 7890
+  - (123)4567890
+  - (123) 456-7890
+  - (123) 456 7890
+  - (123)-456 7890
+  - (123)-456-7890
+  - 1 123 456 7890
+  - 1(123) 456 7890
+  - 1 (123) 456 7890
+  - 1-123-456-7890
+  - 1-123 456-7890
   
 Some examples of invalid US phone number formats that are tested includes:
-  - xxx-xxxx
-  - xxx)-xxx-xxxx
-  - -1xxx-xxx-xxxx
-  - 10(xxx)-xxx-xxxx
-  - (xxx)(xxx)-xxxx
+  - 456-7890
+  - 234)-567-7890
+  - -1123-456-7890
+  - 10(1a2)-3b4-5678
+  - (12@)(34?)-56789
 
 Distributed under The Unlicense. See ``LICENSE`` for more information.
