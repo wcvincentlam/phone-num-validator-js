@@ -19,8 +19,8 @@ Some examples of valid US phone number formats that are tested includes:
   - 1 123 456 7890
   - 1(123) 456 7890
   - 1 (123) 456 7890
-  - 1-123-456-7890
-  - 1-123 456-7890
+  - 1123-456-7890
+  - 1 123 456-7890
   
 Some examples of invalid US phone number formats that are tested includes:
   - 456-7890
